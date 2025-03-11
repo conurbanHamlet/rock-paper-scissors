@@ -15,3 +15,12 @@ function getComputerChoice() {
 }
 
 console.log(getComputerChoice());
+
+
+function getHumanChoice() {
+// Prompt the user asking between 3 choices: "rock", "paper" and "scissors"
+return prompt("What do you choose: 'rock', 'paper' or 'scissors'?");
+// Return the user's choice
+}
+
+console.log(getHumanChoice());
